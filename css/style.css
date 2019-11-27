@@ -5,10 +5,10 @@ header, section {
     margin: auto;
 }
 img{
-    max-width: 1554px;
+    max-width: 100%;
 }
 * {
-    font-family: 'Josefin Sans', sans-serif !important;   
+    font-family: 'Josefin Sans', sans-serif;   
     margin: 0px;
   }
   header {
@@ -133,7 +133,7 @@ color: white;
 
 .text-info p {
     width: 500px;
-    height: 250px;
+    height: 200px;
     font-size: 18px;
     line-height: 36px;
     font-weight: 400;
