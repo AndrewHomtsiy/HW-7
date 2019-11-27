@@ -1,0 +1,153 @@
+@media (max-width: 1024px) {
+section#info img {
+max-width: 1024px;
+    }
+header{
+  padding: 25px;
+  max-height: 184px;
+}
+header .container{
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}    
+header nav{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    order: 3;
+}
+.contacts {
+  height: auto;
+}
+  section#info{
+    height: 411px;
+  }
+  .text-info {
+    height: 340px;
+  }
+  .text-info p, p {
+    font-size: 14px;
+    width: auto;
+    height: auto;
+  } 
+  
+  .text-info h1{
+    font-size: 21px;
+  }
+  section#bottom {
+    height: 480px;
+  }
+  section#bottom .content {
+    height: 325px;
+  }
+  .right p {
+  width: 650px;
+  }
+  section#bottom .container h1 {
+    padding: 25px 0px;
+  }
+  .left {
+    width: 25%;
+  }
+  .left img {
+    width: 228px;
+    height: 227px;
+}
+img.bottom-img{ 
+  display: none;
+}
+img.last{
+  bottom: 0px;
+}
+}
+@media (max-width: 375px) {
+  .contacts {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 11px;
+    justify-content: space-between;
+}
+header {
+  padding: 0px;
+  height: 100px;
+}
+.contacts span img {
+  display: none;
+}
+b{
+  font-weight: normal;
+}
+.contacts span {
+  display: inline-flex;
+  justify-content: center;
+}
+  section#info img {
+    width:375px;
+  }
+  nav a{  
+    display: none;
+  }
+  header .container {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+section#info {
+  height: 600px;
+  background:#f0ebe8;
+}
+.text-info button, .right button{
+  margin: auto;
+  width: 231px;
+  height: 46px;
+  font-size: 17px;
+  font-weight: normal;
+}
+section#bottom .container .content {
+  display: inline-flex;
+  flex-direction: column;
+  height: 750px;
+  text-align: center;
+  align-items: center;
+}
+.text-info, .left, .right {
+  width: auto;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 550px;
+}
+
+section#info img.mob_price {
+  display: flex;
+  width: 120px;
+  height: 210px;
+  margin: 20px auto;
+} 
+.content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  text-align: center;
+}
+.text-info h1{
+  font-size: 16px;
+}
+section#bottom {
+  height: auto;
+}
+section#bottom .container h1 {
+  font-size: 17px;
+}
+.right p {
+  width: auto;
+  height: auto;
+  font-size: 14px;
+}
+}
