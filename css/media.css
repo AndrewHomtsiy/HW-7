@@ -3,7 +3,7 @@ section#info img {
 max-width: 1024px;
     }
 header{
-  padding: 25px;
+  padding: 10px 25px;
   max-height: 184px;
 }
 header .container{
@@ -22,7 +22,7 @@ header nav{
   height: auto;
 }
   section#info{
-    height: 411px;
+    height: 480px;
   }
   .text-info {
     height: 340px;
@@ -43,7 +43,7 @@ header nav{
     height: 325px;
   }
   .right p {
-  width: 650px;
+  width: auto;
   }
   section#bottom .container h1 {
     padding: 25px 0px;
@@ -62,7 +62,44 @@ img.last{
   bottom: 0px;
 }
 }
-@media (max-width: 475px) {
+
+
+@media (max-width: 699px) {
+  .right p {
+    width: auto;
+    height: auto;
+}
+.left{
+  width: 100%;
+  justify-content: center;
+}
+  section#bottom .content {
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.left {
+  width: 100%;
+}
+.right {
+  width: 90%;
+  min-height: 400px;
+}
+.right button {
+  position: relative;
+  bottom: 15px;
+}
+.text-info button, .right button {
+  width: auto;
+}
+section#bottom{
+  height: auto;
+}
+}
+@media (max-width: 520px) {
   .contacts {
     display: inline-flex;
     flex-direction: row;
@@ -99,7 +136,10 @@ section#info {
   height: 600px;
   background:#f0ebe8;
 }
+
 .text-info button, .right button{
+  position: relative;
+  top: 25px;
   margin: auto;
   width: 231px;
   height: 46px;
@@ -119,7 +159,7 @@ section#bottom .container .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 550px;
+  height: auto;
 }
 
 section#info img.mob_price {
