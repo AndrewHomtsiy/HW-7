@@ -4,8 +4,8 @@ header, section {
     background: #f0ebe8;
     margin: auto;
 }
-img{
-    max-width: 100%;
+section#info img{
+    width: 100%;
 }
 * {
     font-family: 'Josefin Sans', sans-serif;   
