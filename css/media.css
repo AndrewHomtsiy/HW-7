@@ -62,7 +62,7 @@ img.last{
   bottom: 0px;
 }
 }
-@media (max-width: 375px) {
+@media (max-width: 475px) {
   .contacts {
     display: inline-flex;
     flex-direction: row;
