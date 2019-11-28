@@ -46,7 +46,7 @@ a.active {
 header p {
     position: relative;
     bottom: 9px;
-    width: 171px;
+    width: auto;
     color: #d4416a;
     font-size: 14px;
     font-weight: 500;
@@ -132,8 +132,8 @@ color: white;
 }
 
 .text-info p {
-    width: 500px;
-    height: 200px;
+    width: auto;
+    height: auto;
     font-size: 18px;
     line-height: 36px;
     font-weight: 400;
@@ -185,8 +185,8 @@ section#bottom .container h1{
     .right p {
     position: relative;
     top: 15px;
-    width: 723px;
-    height: 195px;
+    width: auto;
+    height: auto;
     color: #333333;
     font-family: "Gotham Pro";
     font-size: 16px;
