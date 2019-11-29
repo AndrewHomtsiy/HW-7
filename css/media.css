@@ -52,6 +52,9 @@ header nav{
     width: 25%;
   }
   .left img {
+   position:relative;
+    right: 0px;
+    top:35px;
     width: 228px;
     height: 227px;
 }
@@ -141,15 +144,15 @@ section#info {
   position: relative;
   top: 25px;
   margin: auto;
-  width: 231px;
+  width: 260px;
   height: 46px;
   font-size: 17px;
   font-weight: normal;
+
 }
 section#bottom .container .content {
   display: inline-flex;
   flex-direction: column;
-  height: 750px;
   text-align: center;
   align-items: center;
 }
