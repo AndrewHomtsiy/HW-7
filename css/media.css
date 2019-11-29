@@ -137,7 +137,7 @@ b{
 }
 section#info {
   height: 600px;
-  background:#f0ebe8;
+  background:#dfe1d4;
 }
 
 .text-info button, .right button{
@@ -155,6 +155,7 @@ section#bottom .container .content {
   flex-direction: column;
   text-align: center;
   align-items: center;
+height:100%;
 }
 .text-info, .left, .right {
   width: auto;
@@ -162,9 +163,11 @@ section#bottom .container .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: auto;
+  height: 500px;
 }
-
+.left {
+    height:auto;
+    }
 section#info img.mob_price {
   display: flex;
   width: 120px;
@@ -187,6 +190,7 @@ section#bottom {
 }
 section#bottom .container h1 {
   font-size: 17px;
+  padding:0px;
 }
 .right p {
   width: auto;
