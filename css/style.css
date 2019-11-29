@@ -176,10 +176,14 @@ section#bottom .container h1{
         display: flex;
         justify-content: flex-end;
 }
+.left img {
+    position: relative;
+    right: 100px;
+}
     .right {
         width: 60%;
         display: inline-flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: column;
         align-items: center;
     }
