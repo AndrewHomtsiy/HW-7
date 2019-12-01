@@ -51,12 +51,14 @@ section#info {
   top: 90px;
   z-index: 1;
 }
+section#bottom {
+height: auto;    
+}
   .text-info h1{
     font-size: 21px;
   }
   section#bottom button {
-    top:0px;
-    bottom: 10px;
+    top:-30px;
   }
   section#bottom .content {
     height: 325px;
