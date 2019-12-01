@@ -55,14 +55,14 @@ section#info {
     height: 480px;
   }
   section#bottom button {
-    top:0px;
-    bottom: 10px;
+    top:10px;
   }
   section#bottom .content {
     height: 325px;
   }
   .right p {
   width: auto;
+  heigth:auto;
   font-weight: 200;
   line-height: 33px;
   }
