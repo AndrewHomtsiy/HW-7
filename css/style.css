@@ -85,7 +85,7 @@ text-decoration: none;
 section#info{
     max-width: 1554px;
     height: 611px;
-    background-image: url('img/bg-3.svg');
+    background-image: url('../img/bg-3.svg');
     display: inline-flex;
     justify-content: space-between;
     background-position: top center;
@@ -129,7 +129,7 @@ section#info{
     width: 100px;
     height: 100px;
     background-size: cover;
-    background-image: url('./img/price.svg');
+    background-image: url('../img/price.svg');
     display: flex;
     justify-content: center;
     align-items: center;
