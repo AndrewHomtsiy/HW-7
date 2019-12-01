@@ -54,9 +54,6 @@ section#info {
   .text-info h1{
     font-size: 21px;
   }
-  section#bottom {
-    height: 480px;
-  }
   section#bottom button {
     top:0px;
     bottom: 10px;
