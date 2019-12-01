@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
 section#info img {
-max-width: 1024px;
+max-width: 100%;
     }
 header{
   padding: 10px 25px;
