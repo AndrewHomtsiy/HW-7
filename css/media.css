@@ -7,7 +7,7 @@ width:100%;
     }
 img.topimg, img.downimg {
     height: 3%;
-}
+    }
 header{
   padding: 10px 25px;
   max-height: 184px;
@@ -58,16 +58,14 @@ section#info {
     height: 480px;
   }
   section#bottom button {
-    top:10px;
+    top:0px;
+    bottom: 10px;
   }
   section#bottom .content {
     height: 325px;
   }
-section#bottom .right {
-justify-content: space-around;
   .right p {
   width: auto;
-  heigth:auto;
   font-weight: 200;
   line-height: 33px;
   }
@@ -79,15 +77,17 @@ img.bottom-img{
 }
 img.last{
   bottom: 0px;
-  height:3%;
 }
 }
 
 
-@media (max-width: 699px) {
+@media (max-width: 775px) {
   .right p {
     width: auto;
     height: auto;
+}
+section#info .right {
+  display: none;
 }
 .left{
   width: 100%;
