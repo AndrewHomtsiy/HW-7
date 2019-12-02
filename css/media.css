@@ -205,7 +205,9 @@ section#bottom .content {
   position: relative;
   bottom: 20px;
 }
-
+img.last {
+bottom:0px;
+    }
 section#info img.mob_price {
   display: flex;
   width: 120px;
