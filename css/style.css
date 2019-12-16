@@ -80,6 +80,7 @@ text-decoration: none;
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    cursor:pointer;
 }
 
 section#info{
