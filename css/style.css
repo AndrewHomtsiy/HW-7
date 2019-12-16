@@ -157,20 +157,21 @@ transform: rotate(35deg);
     height: 100%
 }
 
-.text-info button, .right button{
-width: 301px;
-height: 60px;
-border-radius: 5px;
-background-color: #d4416a;
-font-family: "Gotham Pro";
-font-size: 18px;
-font-weight: 700;
-line-height: 28px;
-text-transform: uppercase;
-color: white;
-position: relative;
-top: 20px;
-}
+.text-info button, .right button {
+    width: 301px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #d4416a;
+    border: 1px solid #ab3456;
+    border-bottom: 3px solid #ab3456;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 20px;
 
 .text-info p {
     max-width: 500px;
